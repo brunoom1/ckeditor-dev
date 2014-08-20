@@ -67,6 +67,13 @@ CKEDITOR.editorConfig = function( config ) {
 		'undo,' +
 		'wysiwygarea';
 	// %REMOVE_END%
+
+	config.toolbar = [
+    [ 'Source', '-', 'NewPage', 'Preview', '-', 'Templates' ],
+    [ 'Cut', 'Copy', 'Paste', 'PasteText', 'PasteFromWord', '-', 'Undo', 'Redo' ],
+    '/',
+    [ 'Bold', 'Italic' ]
+		];
 };
 
 // %LEAVE_UNMINIFIED% %REMOVE_LINE%
